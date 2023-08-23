@@ -20,6 +20,7 @@ int main()
     for(int i=0;i<size;i++){
         cout<<"Enter number of arrays:"<<endl;
         cin>>num[i];
+
     }
     cout<<"The Sum of the Array is:"<<sumofArray(num,size)<<endl;
     return 0;
