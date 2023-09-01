@@ -12,7 +12,7 @@ bool linear_search(int arr[],int size,int key){
 
 }
 
-
+// sss
 
 void display(int arr[],int size){
     for(int i=0;i<size;i++){
