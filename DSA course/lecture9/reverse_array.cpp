@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 
+
+//function for swapping
 void reverse(int arr[],int size){
     int start=0;
     int end = size-1;
@@ -13,6 +15,7 @@ void reverse(int arr[],int size){
     }
 }
 
+//function for printing array
 void printArray(int arr[],int size){
     for(int i=0;i<size;i++){
         cout<<arr[i]<<" ";
