@@ -25,7 +25,7 @@ int findMaximumInArray(int arr[],int size){
     return maxAns;
 }
 
-//
+
 
 int main(){
     int arr[]={10,8,31,4,3,1,51};
