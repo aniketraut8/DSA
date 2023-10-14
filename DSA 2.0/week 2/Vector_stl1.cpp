@@ -11,7 +11,7 @@ void print(vector<int>v){
 }
 
 int main(){
- //in vector dont tell size of vectoe
+ //in vector dont tell size of vector
  //just keep inserting it will manage the allocation
 
  vector<int>v; //aaray hi hai
