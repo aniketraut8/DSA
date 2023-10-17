@@ -13,6 +13,19 @@ bool findTarget(int arr[][3],int row,int col,int target){
     return false;
 }
 
+int findMin(int arr[][3],int row,int col){
+    int minAns = INT_MAX;
+
+    for(int i=0;i<row;i++){
+        for(int j=0;j<col;j++){
+            if(arr[i][j]<minAns){
+                minAns = arr[i][j];
+            }
+        }
+    }
+    return minAns;
+}
+
 int findMax(int arr[][3],int row,int col){
     int maxAns = INT_MIN;
 
@@ -41,4 +54,5 @@ int main(){
     cout<<"Found or Not:"<<findTarget(arr,row,col,target)<<endl;
 
    cout<<"Maximum Element is:"<<findMax(arr,row,col)<<endl;
+   cout<<"Minimum Element is:"<<findMin(arr,row,col)<<endl;
 }
