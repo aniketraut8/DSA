@@ -18,7 +18,7 @@ using namespace std;
         else if(B[j]<C[k]){
             j++;
         }
-        else k++;
+        else k++; //
       }
       void print(vector<int>ans){
         for(int i=0;i<ans.size();i++){
