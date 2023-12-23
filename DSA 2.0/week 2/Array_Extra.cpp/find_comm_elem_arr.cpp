@@ -1,7 +1,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-
+  //solve nhi hua hai
    int commonElements(int A[],int B[],int C[],int n1,int n2,int n3){
       
    vector<int>ans;
