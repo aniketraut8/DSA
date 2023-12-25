@@ -56,5 +56,5 @@ int main(){
     int n=sizeof(arr)/sizeof(int);
     int target=30;
 
-    cout<<"Total elements of given target:"<<totalOccurrence(arr,n,target);
+    cout<<"Total elements of given target :"<<totalOccurrence(arr,n,target);
 }
