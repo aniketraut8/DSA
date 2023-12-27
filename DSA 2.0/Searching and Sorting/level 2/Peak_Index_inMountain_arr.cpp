@@ -9,7 +9,7 @@ using namespace std;
         int mid = s+(e-s)/2;
 
         while(s<=e){
-            //corner case
+             //corner case
             if(s==e){
                 return s;
             }
