@@ -28,7 +28,7 @@ using namespace std;
         }
         return-1;
     }
-
+//write
 int main(){
 vector<int>arr;
 arr.push_back(10);
