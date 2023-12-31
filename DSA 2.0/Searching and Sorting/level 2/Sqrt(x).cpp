@@ -1,16 +1,17 @@
 #include<iostream>
+#include<bits/stdc++.h>
 #include<vector>
 using namespace std;
 
-int mySqrt(int x) {
-    int s = 0;
-    int e = x;
-    int mid = 0; // Change the type from long long int to int
+long long mySqrt(int x) {
+    long long s = 0;
+    long long e = x;
+    long long mid = 0; // Change the type from long long int to int
     int ans = -1;
 
     while (s <= e) {
         mid = s + (e - s) / 2;
-        long long int squr = static_cast<long long int>(mid) * mid; // Explicitly cast mid to long long int
+        long long int squr = mid*mid; // Explicitly cast mid to long long int
         if (squr == x) {
             return mid;
         }
