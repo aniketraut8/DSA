@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+//
 int findOddOccurringElement(int arr[],int n){
     int s=0;
     int e=n-1;
