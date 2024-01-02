@@ -4,9 +4,9 @@
 using namespace std;
 
 long long mySqrt(int x) {
-    long long s = 0;
-    long long e = x;
-    long long mid = 0; // Change the type from long long int to int
+    long long int s = 0;
+    long long int e = x;
+    long long int mid = 0; // Change the type from long long int to int
     int ans = -1;
 
     while (s <= e) {
@@ -30,7 +30,7 @@ long long mySqrt(int x) {
 int main() {
     int x = 10;
   
-    int Ans = mySqrt(x);
+   long long int Ans = mySqrt(x);
     cout << "Sqrt of x to nearby integer is: " << Ans << endl;
     return 0;
 }
