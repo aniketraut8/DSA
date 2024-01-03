@@ -42,7 +42,7 @@ double precisionQuotient(int divisor,int dividend){
 
 int main(){
     int divisor = 3;
-    int dividend= 20;
+    int dividend= -20;
 
     double ans = precisionQuotient(abs(divisor),abs(dividend));
 
