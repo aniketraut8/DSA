@@ -12,6 +12,7 @@ int findLength(char ch[],int size){
     return length;
 }
 
+
 int main(){
     char ch[100];
     cin>>ch;
