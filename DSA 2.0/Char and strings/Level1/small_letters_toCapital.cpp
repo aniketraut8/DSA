@@ -2,6 +2,7 @@
 #include<string.h>
 using namespace std;
 
+
 void convertToUppercase(char ch[],int len){
         int index=0;
         while(ch[index]!='\0'){
