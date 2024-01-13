@@ -11,7 +11,6 @@ void reverseString(char ch[],int len){
         swap(ch[i],ch[j]);
         i++;
         j--;
-    
  }
 
 }
