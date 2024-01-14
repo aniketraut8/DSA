@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-
+//print all pairs
     int arr[]={10,20,30};
     int n=3;
 
