@@ -7,6 +7,7 @@ int findlastOccurrence(int arr[],int n,int target){
     int mid = s+(e-s)/2;
     int ans=-1;
 
+
     while(s<=e){
         if(arr[mid]==target){
             ans=mid;
