@@ -12,6 +12,7 @@ int sumofArray(int num[],int n){
 
 int main()
 {
+    
     int size;
     cout<<"Enter the size of Array:"<<endl;
     cin>>size;
