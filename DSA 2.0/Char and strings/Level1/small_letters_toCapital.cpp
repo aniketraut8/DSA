@@ -17,6 +17,7 @@ void convertToUppercase(char ch[],int len){
 
 void convertToLowercase(char ch[],int len){
         int index=0;
+        
         while(ch[index]!='\0'){
             char currCharacter = ch[index];
             //check if lowercase then convert to uppercase
