@@ -2,6 +2,7 @@
 #include<string.h>
 using namespace std;
 
+
 void convertCharacter(char ch[],int len){
     int i=0;
     while(ch[i]!='\0'){
