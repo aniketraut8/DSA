@@ -2,7 +2,6 @@
 #include<string.h>
 using namespace std;
 
-
 bool checkPalindrome(char ch[],int len){
     int i=0;
     int j=len-1;
