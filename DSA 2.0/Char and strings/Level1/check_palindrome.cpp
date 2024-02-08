@@ -14,6 +14,7 @@ bool checkPalindrome(char ch[],int len){
         else{
             return false;
         }
+        
         // yaha pohoch gye to saare characters match hogaye
         return true;
     }
